@@ -1,44 +1,70 @@
-/* 3. Thẻ body: họ font và kích thước chữ */
+/* ==========================================================================
+   MỤC 2: ĐÂY LÀ STYLESHEET DUY NHẤT CHO CẢ BA TRANG
+   ========================================================================== */
+
+/* MỤC 3: Quy tắc CSS cho thẻ nội dung (body) để sửa phông chữ và kích thước phông */
 body {
-    font-family: Arial, sans-serif;
-    font-size: 18px;
+    font-family: 'Helvetica Neue', Arial, sans-serif; /* Thuộc tính phông chữ */
+    font-size: 16px;                                  /* Thuộc tính kích thước phông */
+    color: #333333;
+    margin: 0;
+    padding: 0;
 }
 
-/* 4. Thẻ header: màu nền */
-header {
-    background-color: lightblue;
-}
-
-/* 5. Thẻ nav: màu nền */
-nav {
-    background-color: lightgray;
-}
-
-/* 6. Thẻ main: màu nền và kích thước chữ */
-main {
-    background-color: white;
-    font-size: 18px;
-}
-
-/* 7. Thẻ footer: màu nền */
-footer {
-    background-color: lightblue;
-}
-
-/* 8. Thẻ li: kiểu hiển thị và chiều rộng */
-li {
-    display: inline-block;
-    width: 150px;
-}
-
-/* 9. Thẻ h1: căn giữa, font và màu chữ */
+/* MỤC 4 & MỤC 9: Quy tắc CSS cho thẻ tiêu đề h1 (Sửa màu nền, căn chỉnh văn bản, phông chữ, màu sắc) */
 h1 {
-    text-align: center;
-    font-family: Georgia, serif;
-    color: darkblue;
+    background-color: #2c3e50; /* Thuộc tính màu nền (Mục 4 & 9) */
+    text-align: center;         /* Thuộc tính căn chỉnh văn bản (Mục 9) */
+    font-family: Georgia, serif;/* Thuộc tính phông chữ (Mục 9) */
+    color: #ffffff;             /* Thuộc tính màu sắc (Mục 9) */
+    padding: 20px;
+    margin-top: 0;
 }
 
-/* 10. Thẻ p: chiều cao dòng */
+/* MỤC 5: Quy tắc CSS cho thẻ nav để sửa đổi thuộc tính màu nền */
+nav {
+    background-color: #34495e; /* Thuộc tính màu nền */
+    padding: 10px;
+}
+
+/* MỤC 6: Quy tắc CSS cho thẻ chính (main) để sửa đổi màu nền và kích thước phông chữ */
+main {
+    background-color: #f8f9fa; /* Thuộc tính màu nền */
+    font-size: 1.05rem;        /* Thuộc tính kích thước phông chữ */
+    padding: 20px;
+    min-height: 400px;
+}
+
+/* MỤC 7: Quy tắc CSS cho thẻ chân trang (footer) để sửa đổi thuộc tính màu nền */
+footer {
+    background-color: #7f8c8d; /* Thuộc tính màu nền */
+    color: #ffffff;
+    text-align: center;
+    padding: 15px;
+    font-size: 0.9rem;
+}
+
+/* MỤC 8: Quy tắc CSS cho thẻ li để sửa đổi các thuộc tính hiển thị và chiều rộng */
+li {
+    display: inline-block;     /* Thuộc tính hiển thị (Biến danh sách thành hàng ngang) */
+    width: 120px;              /* Thuộc tính chiều rộng */
+    margin-right: 10px;
+}
+
+/* MỤC 10: Quy tắc CSS cho thẻ p để sửa đổi thuộc tính chiều cao cao dòng */
 p {
-    line-height: 1.6;
+    line-height: 1.8;          /* Thuộc tính chiều cao dòng */
+    margin-bottom: 15px;
+}
+
+/* Bổ sung thêm một chút định dạng cho các liên kết trong menu (nav a) để dễ nhìn hơn */
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px 10px;
+}
+nav a:hover {
+    background-color: #1abc9c;
+    border-radius: 4px;
 }
