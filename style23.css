@@ -1,59 +1,44 @@
-
+/* 3. Thẻ body: họ font và kích thước chữ */
 body {
-    font-family: 'Helvetica Neue', Arial, sans-serif; 
-    font-size: 16px;                                  
-    color: #333333;
-    margin: 0;
-    padding: 0;
-}
-h1 {
-    background-color: #2c3e50; 
-    text-align: center;         
-    font-family: Georgia, serif;
-    color: #ffffff;            
-    padding: 20px;
-    margin-top: 0;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
 }
 
+/* 4. Thẻ header: màu nền */
+header {
+    background-color: lightblue;
+}
+
+/* 5. Thẻ nav: màu nền */
 nav {
-    background-color: #34495e; 
-    padding: 10px;
+    background-color: lightgray;
 }
 
+/* 6. Thẻ main: màu nền và kích thước chữ */
 main {
-    background-color: #f8f9fa; 
-    font-size: 1.05rem;        
-    padding: 20px;
-    min-height: 400px;
+    background-color: white;
+    font-size: 18px;
 }
 
+/* 7. Thẻ footer: màu nền */
 footer {
-    background-color: #7f8c8d; 
-    color: #ffffff;
-    text-align: center;
-    padding: 15px;
-    font-size: 0.9rem;
+    background-color: lightblue;
 }
 
+/* 8. Thẻ li: kiểu hiển thị và chiều rộng */
 li {
-    display: inline-block;     
-    width: 120px;              
-    margin-right: 10px;
+    display: inline-block;
+    width: 150px;
 }
 
+/* 9. Thẻ h1: căn giữa, font và màu chữ */
+h1 {
+    text-align: center;
+    font-family: Georgia, serif;
+    color: darkblue;
+}
+
+/* 10. Thẻ p: chiều cao dòng */
 p {
-    line-height: 1.8;          
-    margin-bottom: 15px;
-}
-
-
-nav a {
-    color: #ffffff;
-    text-decoration: none;
-    font-weight: bold;
-    padding: 5px 10px;
-}
-nav a:hover {
-    background-color: #1abc9c;
-    border-radius: 4px;
+    line-height: 1.6;
 }
