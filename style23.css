@@ -11,6 +11,9 @@ nav {
     background-color: #808080;
     display: inline-block;
     width: 80%;
+    padding: 15px;
+    border-radius: 10px;
+    margin: auto;
 }
 nav img {
     width: 10%;
@@ -57,4 +60,40 @@ p {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+}
+/* Skip link */
+.skip-link {
+    position: absolute;
+    left: -9999px;
+}
+
+.skip-link:focus {
+    left: 20px;
+    top: 20px;
+    background-color: yellow;
+    padding: 10px;
+    z-index: 1000;
+}
+
+/* Box model cho ảnh */
+img {
+    border: 3px solid #333;
+    padding: 8px;
+    border-radius: 15px;
+    box-sizing: border-box;
+}
+
+/* Hover */
+img:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s;
+}
+
+/* nth-child */
+.grid img:nth-child(even) {
+    border-radius: 50%;
+}
+
+.grid img:nth-child(odd) {
+    border-radius: 15px;
 }
